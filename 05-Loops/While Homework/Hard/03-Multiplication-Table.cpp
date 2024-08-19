@@ -5,7 +5,7 @@
  * @file      Homework Hard [3] : Problem #3: Multiplication Table.
  * @details   Description.
                 ● Read an integer N and M, then print NxM lines
-                  for their multiplication table.
+                    for their multiplication table.
                 ● Input
                     ○ //? 3 4
                 ● Output

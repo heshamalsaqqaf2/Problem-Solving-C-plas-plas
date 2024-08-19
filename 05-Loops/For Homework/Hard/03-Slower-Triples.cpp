@@ -10,9 +10,7 @@
                     ○ 1 <= C <= w
                 ● Example:
                     ○ 100 200 20 ⇒ 715
-                ● After File Using 3 loops implemented the slow version
-                ● Find a condition that allows us remove the last loop
-                    ○ //? Overall 2 nested loops only
+                ● //? Using 3 loops implemented the slow version
  *
  * @copyright Copyright Programmer/Hesham (c) 2024.
  */
@@ -29,24 +27,13 @@ int main() {
     cin >> n >> m >> w;
     int count{ 0 };
 
-    // TODO: This Is Code Using 2 Nested Loops Very Faster Triples.
+    // This Is Code Using 3 Nested Loops Very Slower Triples.
     for (int a = 1; a <= n; ++a)
-        for (int b = a; b <= m; ++b) {
-            int c = a + b;
-            if (1 <= c && c <= w)
-                /**
-                 * @protocol
-                 *    ? count += w - c + 1;
-                 *
-                 *    W - C = 0 -> Zero-Based
-                 *    Zero-Based - Zero-Based = Zero-Based
-                 *    Zero-Based - Zero-Based = Zero-Based + 1
-                 *    W - C + 1 = 1 -> One-Based
-                 */
-                count += w - c + 1;
-        }
-    cout << "Items Triples = " << count << "\n";
-
+        for (int b = a; b <= m; ++b)
+            for (int c = 1; c <= w; ++c)
+                if (a + b <= c)
+                    count++;
+    cout << "Triples = " << count << "\n";
 
     cout << "==============================================\n";
     cout << "\tGoodbye, End The Program.\n";
