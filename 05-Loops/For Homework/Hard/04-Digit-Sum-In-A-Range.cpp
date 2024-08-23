@@ -24,7 +24,21 @@ int main() {
     cout << "\n\tHello, Start The Program.\n";
     cout << "==============================================\n";
 
-    
+    int number{}, a{}, b{};
+    cout << "Enter The Number = ";
+    cin >> number >> a >> b;
+
+    int sum{ 0 };
+    for (int i = 1; i <= number; ++i) {
+        int result{ 0 };
+        for (int num = i; num > 0; num /= 10)
+            result += num % 10;
+        if (a <= result && result <= b) {
+            cout << i << " Count Digit => " << result << endl;
+            sum += i;
+        }
+    }
+    cout << "Sum Digit = " << sum << endl;
 
     cout << "==============================================\n";
     cout << "\tGoodbye, End The Program.\n";
