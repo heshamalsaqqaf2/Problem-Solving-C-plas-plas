@@ -26,5 +26,6 @@ int main() {
     }
 
     cout << "Max Value 1 = " << numbers[maxIndex1] << "Max Value 2 = " << numbers[maxIndex2];
+    
     return 0;
 }
