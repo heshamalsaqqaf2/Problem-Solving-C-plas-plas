@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 0; i < n; ++i)
         cin >> number[i];
-    // ------------------------------>
+        
     int value{ 0 }, maxRepeat{ 0 };
     for (int i = 0; i < n; ++i) {
         int repeated = 0; // Count
