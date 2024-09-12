@@ -7,13 +7,11 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "\n\tHello, Start The Program.\n";
-    cout << "==============================================\n";
+int main() {
+    const int SizeArray{ 200 };
+    int n, number[SizeArray];
 
-    int n{}, number[200];
-    cout << "Enter The Number = ";
+    cout << "Enter The Number Of Test Cases = ";
     cin >> n;
 
     cout << "Now Enter The " << n << " Number = ";
@@ -21,10 +19,8 @@ int main()
         cin >> number[i];
 
     bool isThisIncreasing{ true };
-    for (int i = 1; i < n; i++)
-    {
-        if (number[i] <= number[i - 1])
-        {
+    for (int i = 1; i < n; i++) {
+        if (number[i] <= number[i - 1]) {
             isThisIncreasing = false;
             break;
         }
@@ -33,7 +29,6 @@ int main()
         cout << "YES, The Array Is Increasing. \n";
     else
         cout << "NO, The Array Is Not Increasing.\n";
-    cout << "==============================================\n";
-    cout << "\tGoodbye, End The Program.\n";
+
     return 0;
 }
