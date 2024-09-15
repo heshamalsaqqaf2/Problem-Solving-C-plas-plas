@@ -13,5 +13,11 @@
 using namespace std;
 
 int main() {
+    const int sizeArray{ 999 };
+    int number, arr[sizeArray];
+
+    cout << "Enter Test Case Number";
+    cin >> number;
+    
     return 0;
 }
