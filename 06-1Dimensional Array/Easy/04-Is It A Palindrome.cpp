@@ -7,3 +7,11 @@
  *
  * @copyright Copyright (c) 2024
  */
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    return 0;
+}
