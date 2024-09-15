@@ -1,8 +1,12 @@
-/*
-    # Created On 15/09/2024.
-    # Code By: Hesham Z. Alsaqqaf.
-    # Homework Easy [3] : Problem #3: Unique Numbers Of An Ordered List.
-*/
+/**
+ * @version 0.1
+ * @date    15/09/2024
+ * @author  Hesham Z. Alsaqqaf.
+ * @file    03-Unique Numbers Of An Ordered List.cpp
+ * @details Homework Easy [3] : Problem #3: Unique Numbers Of An Ordered List..
+ *
+ * @copyright Copyright (c) 2024
+ */
 
 #include <iostream>
 using namespace std;
@@ -16,7 +20,7 @@ int main() {
      */
     const int sizArray{ 999 };
     int number, arr[sizArray]; // number > 0
-    
+
     cout << "Enter Test Case Number = ";
     cin >> number;
 
