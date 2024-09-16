@@ -1,11 +1,10 @@
 /**
-  * @version   0.1
-  * @date      15/09/2024
-  * @author    Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
-  * @file      Homework Easy [5] : Problem #: Smallest Pair.
-  * @details   Description.
+  * @version 0.1
+  * @date    15/09/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Homework Easy [5]: Problem #5: Smallest Pair.
   *
-  * @copyright Copyright Programmer/Hesham (c) 2024.
+  * @copyright Copyright (c) 2024.
 */
 
 #include <iostream>

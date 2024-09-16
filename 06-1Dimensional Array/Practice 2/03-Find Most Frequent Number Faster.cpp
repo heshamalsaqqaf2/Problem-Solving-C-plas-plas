@@ -1,3 +1,12 @@
+/**
+  * @version 0.1
+  * @date    23/08/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Practice [2]: Practice #3: Find Most Frequent Number Faster.
+  *
+  * @copyright Copyright (c) 2024.
+*/
+
 #include <iostream>
 using namespace std;
 

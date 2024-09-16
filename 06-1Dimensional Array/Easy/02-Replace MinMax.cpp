@@ -1,7 +1,10 @@
-/*
-    # Created On 12/09/2024.
-    # Code By: Hesham Z. Alsaqqaf.
-    # Homework Easy [2] : Problem #2: Replace MinMax Numbers;
+/**
+  * @version 0.1
+  * @date    15/09/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Homework Easy [2]: Problem #2: Replace MinMax Numbers.
+  *
+  * @copyright Copyright (c) 2024
 */
 
 #include <iostream>

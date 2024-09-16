@@ -1,3 +1,12 @@
+/**
+  * @version 0.1
+  * @date    23/08/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Practice [2]: Practice #2: Find Most Frequent Number.
+  *
+  * @copyright Copyright (c) 2024.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -7,7 +16,7 @@ int main() {
 
     for (int i = 0; i < n; ++i)
         cin >> number[i];
-        
+
     int value{ 0 }, maxRepeat{ 0 };
     for (int i = 0; i < n; ++i) {
         int repeated = 0; // Count

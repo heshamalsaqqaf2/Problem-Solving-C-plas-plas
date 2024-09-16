@@ -1,16 +1,11 @@
 /**
- * @version   0.1
- * @date      2024-09-1
- * @author    Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
- * @file      Practice [1] : Practice #2 : Find Pair Values Of Maximum Sum
- * @details   Description.
-                ●   Read an Integer N, then read N <= 200 (distinct) integers.
-                        Find a pair of numbers (e.g. 2 different indices) whose sum is maximum.
-                ●   Input: 5  => 2 10 3 50 15   ⇒ 65  (from 50 + 15).
- *
- * @copyright Copyright Programmer/Hesham (c) 2024.
- */
-
+  * @version 0.3
+  * @date    01/09/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Practice [1]: Practice #2: Find Pair Values Of Maximum Sum.
+  *
+  * @copyright Copyright (c) 2024.
+*/
 #include <iostream>
 using namespace std;
 

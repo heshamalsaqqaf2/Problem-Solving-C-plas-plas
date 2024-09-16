@@ -1,7 +1,10 @@
-/*
-    # Created On 14/08/2024.
-    # Code By: Hesham Z. Alsaqqaf.
-    # Homework Easy [1] : Problem #1: Is The Array Increasing.
+/**
+  * @version 0.1
+  * @date    15/09/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Homework Easy [1]: Problem #1: Is The Array Increasing.
+  *
+  * @copyright Copyright (c) 2024
 */
 
 #include <iostream>

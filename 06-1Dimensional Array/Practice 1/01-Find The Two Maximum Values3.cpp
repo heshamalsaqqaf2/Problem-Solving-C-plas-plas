@@ -1,17 +1,11 @@
 /**
- * @version   0.3
- * @date      2024-09-1
- * @author    Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
- * @file      Practice [1] : Practice #3 : Find First And 2nd Maximum Values.
- * @details   Description.
-                ●   Read an Integer N ( 2 <= N <= 200), then read N (distinct) integers.
-                        Find the maximum and 2nd maximum values
-                ●   Input: 5 => 10 20 3 30 7 ⇒ Output 30 20
-                        ○ 30 is the maximum in the array
-                        ○ If we removed it, the next maximum is 20
- *
- * @copyright Copyright Programmer/Hesham (c) 2024.
- */
+  * @version 0.3
+  * @date    01/09/2024
+  * @author  Hesham Z. Alsaqqaf | heshamdev2@gmail.com.
+  * @file    Practice [1]: Practice #1: Find First And 2nd Maximum Values.
+  *
+  * @copyright Copyright (c) 2024.
+*/
 #include <iostream>
 using namespace std;
 
