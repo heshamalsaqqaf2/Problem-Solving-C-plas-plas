@@ -40,7 +40,7 @@ int main() {
                  *                          Index[j] = 1 , Value[j] = 12
                  *                          V[i] + V[j] + j - i = 10 + 12 + 1 - 0 => 23
                  *
-                 *          - Output: 23 => //!Error
+                 *          - Output: 23 => // !This Output It's Wrong.
                  *                          Index[i] = 0 , Value[i] = 10
                  *                          Index[j] = 7 , Value[j] = 11
                  *                          V[i] + V[j] + j - i = 10 + 11 + 7 - 0 => 28
